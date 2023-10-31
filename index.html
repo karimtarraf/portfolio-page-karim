@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
+        <link href="style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body>
+        <header>
+            <ul class="breadcrumb">
+                <li><a href="#top">Home</a></li>
+                <li><a href="#aboutMe">Steckbrief</a></li>
+                <li><a href="#faehigkeiten">St&auml;rken</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#news">Erfahrungen</a></li>
+                <li><a href="#kontakt">Kontakt</a></li>
+            </ul>
+            <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <div class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" id="nav-icon1">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </div>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#top">Home</a></li>
+                            <li><a href="#aboutMe">Steckbrief</a></li>
+                            <li><a href="#faehigkeiten">St&auml;rken</a></li>
+                            <li><a href="#skills">Skills</a></li>
+                            <li><a href="#news">Erfahrungen</a></li>
+                            <li><a href="#kontakt">Kontakt</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <section id="top" class="top_cont_outer">
+                <script>
+                    THREE.ShapeUtils.triangulateShape = (function () {
+                            var pnlTriangulator = new PNLTRI.Triangulator();
+                            return function triangulateShape(contour, holes) {
+                                return pnlTriangulator.triangulate_polygon([contour].concat(holes));
+                            };
+                        })();
+                  </script>
+                  
+                  <div id="three-container"></div>
+
+
+            </section>
+            <section id="aboutMe" class="aboutUs-container">
+                <div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
+                    <div class="container">
+                        <h2>&uuml;ber mich</h2>
+                        <div class="inner_section">
+                            <div class="row">
+                                <div class="col-md-6"> <img class="img-responsive" src="Karim.JPG"> </div>
+                                <div class="col-md-6">
+                                    <h3>something about me...</h3>
+                                    <p>Mein Name ist Karim Tarraf. Ich bin 26 Jahre alt und wohne in Bremgarten BE. Meine Eltern kommen aus dem Libanon und Syrien.</p> 
+                                    <p>Den Weg in die Berufswelt habe ich mit einer Lehre als Kaufmann gestartet. Nach dem Erwerb meines Eidgenössischem Fähigkeitszeugnis, absolvierte ich meinen Militärdienst als Durchdiener. Anschliessend begann nebenberuflich eine Weiterbildung als Wirtschaftsinformatiker HF. Diesen Abschluss konnte ich im Jahre 2022 erwerben, weshalb ich im selben Jahr ins Bachelorstudium Wirtschaftsinformatik eingestiegen bin. Aktuell befinde ich mich im 7. und somit zweitletzten Semester an der Berner Fachhochschule.</p>
+                                    <p>In meiner Freizeit spiele ich aktiv Fussball in der 4. Liga beim FC Goldstern und agiere gleichzeitig als Funktionär im Bereich Sponsoring des Vereins. Mich selbst beschreibe ich mit diesen drei Bulletpoints:</p>
+                                    <ul class="about-us-list">
+                                        <li class="points animate__animated animate__backInRight animate__delay-2s">Engagiert</li> 
+                                        <li class="points animate__animated animate__backInRight animate__delay-3s">Zielstrebig</li>
+                                        <li class="points animate__animated animate__backInRight animate__delay-4s">Hilfsbereit</li>
+                                    </ul><!-- /.about-us-list -->                                                       
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+            <section id="faehigkeiten">
+                <div class="container">
+                    <h2>Meine St&auml;rken</h2>                        
+                    <div class="service_wrapper">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="service_icon icon1"> <span><i class="bi bi-person-check-fill"></i></span> </div>
+                                <div class="service_block">                                
+                                    <h3>Selbstorganisation</h3>
+                                    <p>Hohe Selbstorganisationsf&auml;higkeit und während hetkischen Situationen ruhig und umsichtig bleiben</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3"> 
+                                <div class="service_icon icon2"> <span><i class="bi bi-book"></i></span> </div> 
+                                <div class="service_block">
+                                    <h3>Rasche Auffassungsgabe</h3>
+                                    <p>Bin gewohnt, mich schnell und sicher in neue Aufgaben einzuarbeiten und mir erforderliches Wissen anzueignen.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="service_icon icon3"> <span><i class="bi bi-emoji-smile"></i></span> </div>
+                                <div class="service_block">                                
+                                    <h3>Professionelles Auftreten</h3>
+                                    <p>Professionelles und kompetentes Auftreten mit ausgezeichneten Kommunikationsf&auml;higkeiten auf verschieden Ebenen</p>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="service_icon icon4"> <span><i class="bi bi-person-workspace"></i></span> </div>
+                                <div class="service_block">                                
+                                    <h3>Selbst&auml;ndigkeit</h3>
+                                    <p>Selbst&auml;ndige, planvolle und zielstrebige Arbeitsweise</p>
+                                </div>
+                            </div>
+                        </div>                         
+                    </div>
+                </div>
+            </section>
+            <section id="skills">
+                <div class="container">
+                    <div class="row"> 
+                        <div class="col-sm-12">
+                            <h2> Meine Sprachkenntnisse</h2>                                
+                        </div>
+                        <div class="col-sm-12">
+                            <ul class="skills-bar-container">
+                                <li>
+                                    <div class="progressbar-title">
+                                        <h3>Deutsch</h3>
+                                        <span class="percent" id="deutsch-pourcent"></span>
+                                    </div>
+                                    <div class="bar-container">
+                                        <span class="progressbar progresstomatoes" id="progress-deutsch"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="progressbar-title">
+                                        <h3>Englisch</h3>
+                                        <span class="percent" id="englisch-pourcent"></span>
+                                    </div>
+                                    <div class="bar-container">
+                                        <span class="progressbar progresstomatoes" id= "progress-englisch"></span>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="progressbar-title">                             
+                                        <h3>Französisch</h3>
+                                        <span class="percent" id="französisch-pourcent"></span>
+                                    </div>
+                                    <div class="bar-container">
+                                        <span class="progressbar progresstomatoes" id="progress-französisch"></span>
+                                    </div>
+                                </li>                            
+                                <li>
+                                    <div class="progressbar-title">
+                                        <h3>Arabisch</h3>
+                                        <span class="percent" id="arabisch-pourcent"></span>
+                                    </div>
+                                    <div class="bar-container">
+                                        <span class="progressbar progresstomatoes" id="progress-arabisch"></span>
+                                    </div>
+                                </li>                            
+                            </ul>                        
+                        </div>
+                    </div>                    
+                </div>
+            </section>
+            <section id="news" class="white-bg padding-top-bottom">
+                <div class="container">
+                    <div class="timeline">
+                        <div class="date-title">
+                            <span>2023</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 news-item">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p>Dez 22</p> 
+                                    </div>
+                                    <h2 class="news-title">Die Schweizerische Post AG</h2> 
+                                    <span>IT Business Analyst / Service-Owner</span>
+                                    <p>seit Dezember 2022</p>                                    
+                                </div>
+                            </div>                                      
+                            <div class="col-sm-6 news-item right">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p>Mai 22</p> 
+                                    </div>
+                                    <h2 class="news-title">Swiss Post Solutions AG</h2> 
+                                    <span>Junior Business Analyst</span>
+                                    <p>Mai 2022 – November 2022</p>                                    
+                                </div>
+                            </div>                             
+                        <div class="row">
+                            <div class="col-sm-6 news-item">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p>Jul 18</p> 
+                                    </div>
+                                    <h2 class="news-title">Swiss Post Solutions AG</h2> 
+                                    <span>Service Operator</span> 
+                                    <p>Juli 2018 – April 2022</p>                                    
+                                </div>
+                            </div>                                        
+                            <div class="col-sm-6 news-item right">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p>Jun 17</p> 
+                                    </div>
+                                    <h2 class="news-title">Schweizer Armee</h2> 
+                                    <span>Durchdiener im Führungsstab der Armee</span>
+                                    <p>Juni 2017 – April 2018</p>                                    
+                                </div>
+                            </div>
+                        </div>                                
+
+                        <div class="row">	
+                            <div class="col-sm-6 news-item">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p>Apr 17</p> 
+                                    </div>
+                                    <h2 class="news-title">Genossenschaft Migros Aare</h2> 
+                                    <span>Kaufmännischer Angestellter</span>
+                                    <p>April 2017 – Juni 2017</p>                                    
+                                </div>
+                            </div>                                        
+                            <div class="col-sm-6 news-item right">
+                                <div class="news-content">
+                                    <div class="date">
+                                        <p>Aug 13</p> 
+                                    </div>
+                                    <h2 class="news-title">Feusi Bildungszentrum</h2> 
+                                    <span>Handelsschule Kaufmann EFZ E-Profil</span>
+                                    <p>August 2013 – Juli 2016</p>                                    
+                                </div>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="page_section contact" id="kontakt">
+                <div class="contact_section">
+                    <h2>Kontaktieren Sie mich!</h2>                    
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 ">	
+                        <div class="contact_info">
+                            <div class="detail">
+                                <h4>Adresse</h4>
+                                <p>Ländlistrasse 16, 3047 Bremgarten bei Bern
+                                </p>
+                            </div>
+                            <div class="detail">
+                                <h4>Kontaktiere mich</h4>
+                                <p>Mobile  079 963 40 09</p>
+                            </div>
+                            <div class="detail">
+                                <h4>E-Mail</h4>
+                                <p>karim.tarraf@students.bfh.ch</p>
+                            </div>
+                            <div class="detail">
+                                <a href="data/cv.pdf" target="_blank" download="cv.pdf">
+                                    <button class="input-btn">Lebenslauf herunterladen</button>
+                                </a>
+                            </div>
+                            <ul class="social_links">
+                                <li class="instagram"><a href="https://www.instagram.com/saruhan.th/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                                <li class="facebook"><a href="https://www.facebook.com/thalayasingham.saruhan" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                                <li class="linkedin"><a href="https://www.linkedin.com/in/saruhan-thalayasingham-6971411bb" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                                <li class="github"><a href="https://github.com/Saruhan99" target="_blank"><i class="bi bi-github"></i></a></li> 
+                            </ul>
+                        </div>                            
+                    </div>
+                    <div class="col-md-8 col-sm-12">
+                        <iframe class="googleMaps" src="https://www.google.com/maps/place/L%C3%A4ndlistrasse+16,+3047+Bremgarten+bei+Bern/@46.9712659,7.4333181,17z/data=!3m1!4b1!4m6!3m5!1s0x478e3987dafffae5:0x1b5db4987e5cbe2c!8m2!3d46.9712659!4d7.435893!16s%2Fg%2F11csmxxwc5?entry=ttu" width="95%" height="350px" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>                    
+                    <div class="col-sm-12">
+                        <div class="form">
+                            <h6>Sie k&ouml;nnen mich jederzeit &uuml;ber dieses Kontaktformular kontaktieren.</h6>                    
+                            <input id="input-name" class="input-text" type="text" name="" value="Name und Vorname" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                            <input id="input-email" class="input-text" type="email" name="" value="E-Mail" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                            <textarea id="input-text" class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Mitteilung</textarea>
+                            <input id="btn-send" class="input-btn" type="submit" value="Mitteilung senden">
+                            <div id="success-message-box" class="success-message">Das Formular wurde erfolgreich &uuml;bermittelt!</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/script.js" type="text/javascript"> </script>
+    </body>
+</html>
