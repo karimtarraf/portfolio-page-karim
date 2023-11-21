@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.css">
         <link href="style.css" rel="stylesheet" type="text/css">
-
     </head>
     <body>
         <header>
@@ -44,20 +42,6 @@
             </nav>
         </header>
         <main>
-            <section id="top" class="top_cont_outer">
-                <script>
-                    THREE.ShapeUtils.triangulateShape = (function () {
-                            var pnlTriangulator = new PNLTRI.Triangulator();
-                            return function triangulateShape(contour, holes) {
-                                return pnlTriangulator.triangulate_polygon([contour].concat(holes));
-                            };
-                        })();
-                  </script>
-                  
-                  <div id="three-container"></div>
-
-
-            </section>
             <section id="aboutMe" class="aboutUs-container">
                 <div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
                     <div class="container">
@@ -263,34 +247,18 @@
                                 <p>karim.tarraf@students.bfh.ch</p>
                             </div>
                             <div class="detail">
-                                <a href="data/cv.pdf" target="_blank" download="cv.pdf">
+                                <a href="cv.pdf" target="_blank" download="cv.pdf">
                                     <button class="input-btn">Lebenslauf herunterladen</button>
                                 </a>
                             </div>
                             <ul class="social_links">
-                                <li class="instagram"><a href="https://www.instagram.com/saruhan.th/?igshid=YmMyMTA2M2Y%3D" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                                <li class="facebook"><a href="https://www.facebook.com/thalayasingham.saruhan" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                                <li class="linkedin"><a href="https://www.linkedin.com/in/saruhan-thalayasingham-6971411bb" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-                                <li class="github"><a href="https://github.com/Saruhan99" target="_blank"><i class="bi bi-github"></i></a></li> 
+                                <li class="linkedin"><a href="https://www.linkedin.com/in/karim-tarraf/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                                <li class="github"><a href="https://github.com/karimtarraf" target="_blank"><i class="bi bi-github"></i></a></li> 
                             </ul>
                         </div>                            
                     </div>
                     <div class="col-md-8 col-sm-12">
-                        <iframe class="googleMaps" src="https://www.google.com/maps/embed/v1/place?key=DEIN_API_SCHLÜSSEL&q=L%C3%A4ndlistrasse+16,3047+Bremgarten+bei+Bern" width="95%" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
-                    
-                        "></iframe>
-                    </div>                    
-                    <div class="col-sm-12">
-                        <div class="form">
-                            <h6>Sie k&ouml;nnen mich jederzeit &uuml;ber dieses Kontaktformular kontaktieren.</h6>                    
-                            <input id="input-name" class="input-text" type="text" name="" value="Name und Vorname" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                            <input id="input-email" class="input-text" type="email" name="" value="E-Mail" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-                            <textarea id="input-text" class="input-text text-area" cols="0" rows="0" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">Mitteilung</textarea>
-                            <input id="btn-send" class="input-btn" type="submit" value="Mitteilung senden">
-                            <div id="success-message-box" class="success-message">Das Formular wurde erfolgreich &uuml;bermittelt!</div>
-                        </div>
-                    </div>
+                        <iframe class="googleMaps" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBb1mBE3THOj8toNScBI84EsajM9-iY5Vs&q=L%C3%A4ndlistrasse+16,3047+Bremgarten+bei+Bern" width="95%" height="350" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </section>
         </main>
